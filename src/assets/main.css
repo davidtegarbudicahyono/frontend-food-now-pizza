@@ -131,7 +131,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  text-decoration: none; /* Menghapus dekorasi */
+  text-decoration: none; 
 }
 
 .payment-summary ul li .item-name {
@@ -144,12 +144,12 @@
 }
 
 .button-order {
-  background-color:#f7931e; /* Warna latar belakang */
-  color: #fff; /* Warna teks */
-  font-weight: bold; /* Teks tebal */
-  border: none; /* Tanpa border */
-  padding: 10px 15px; /* Padding */
-  border-radius: 25px; /* Sudut melengkung */
+  background-color:#f7931e;
+  color: #fff; 
+  font-weight: bold; 
+  border: none; 
+  padding: 10px 15px; 
+  border-radius: 25px; 
   cursor: pointer;
 }
 
@@ -177,22 +177,22 @@
   display: block;
 }
 .modal-body .button-close {
-  background-color: #f7931e; /* Warna orange */
-  color: white; /* Warna teks */
+  background-color: #f7931e; 
+  color: white; 
   font-weight: bold;
-  border: none; /* Menghapus border */
-  padding: 10px 20px; /* Memberikan padding pada tombol */
-  border-radius: 25px; /* Membuat sudut tombol membulat */
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 25px; 
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 100%; /* Memenuhi lebar container */
+  width: 100%; 
 }
 .modal-body .button-close:hover {
-  background-color: #e6720c; /* Warna lebih gelap saat hover */
+  background-color: #e6720c;
 }
 
 .modal-body .button-close:focus {
-  outline: none; /* Menghapus outline bawaan */
+  outline: none; 
 }
 
 

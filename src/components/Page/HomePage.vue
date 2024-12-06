@@ -206,7 +206,7 @@ export default {
     },
     isToppingAvailableForSelectedPizza(toppingId) {
       const pizza = this.pizzas.find((p) => p.id === this.selectedPizza);
-      return pizza ? pizza.toppings.includes(toppingId) : true; // Menampilkan topping jika ada dalam daftar pizza
+      return pizza ? pizza.toppings.includes(toppingId) : true;
     },
   },
 };

@@ -127,7 +127,7 @@ export default {
 }
 
 .btn-register:hover {
-  background-color: rgb(218, 133, 6); 
+  background-color: rgb(214, 132, 10); 
   color:white;
 }
 
